@@ -1,2 +1,2 @@
 FROM alpine:latest
-RUN apk add openjdk8
+RUN apk update && apk add openjdk8
