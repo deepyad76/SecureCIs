@@ -24,4 +24,4 @@ jobs:
                 run: docker build . --file base_OpenJDK8/Dockerfile --tag deepyad76/openjdk8:2023-10-30
             - # build the container image and push it to Docker Hub 
                 name: Push image
-                run: docker push deepyad76/openjdk8:latest
+                run: docker push deepyad76/openjdk8:2023-10-30
